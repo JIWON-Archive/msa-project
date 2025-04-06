@@ -1,0 +1,9 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: discoveryservice # Eureka Server의 애플리케이션 이름
+eureka:
+  client:
+    register-with-eureka: false # Eureka 서버는 스스로 Eureka에 등록할 필요 없음
+    fetch-registry: false # 다른 Eureka 서버의 정보를 가져올 필요 없음
